@@ -8,7 +8,7 @@ class MainShopCharger:
     
     # 挿入している学生証にお金をチャージする
     def chargeMoney(self, money):
-        if self.insertedStudentCard is not None:
+        if self.insertedStudentCard != None:
             self.insertedStudentCard.setAccountBalance(self.insertedStudentCard.getAccountBalance() + money)
             self.printAccountBalance()
         else:
