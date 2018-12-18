@@ -14,3 +14,5 @@ $ python MainShopCharger.py
 残高を表示します
 学生名: tenpaku
 残高: -500
+
+bugfix
